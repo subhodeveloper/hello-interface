@@ -22,7 +22,7 @@ class DevopsApplicationTests {
         String result = devopsApplication.hello("John");
 
         // Verify the result
-        assertEquals("Hello  John , this is " + Year.now().getValue(), result);
+        assertEquals("Hello John , this is " + Year.now().getValue(), result);
     }
 
 }
