@@ -19,7 +19,7 @@ public class DevopsApplication {
 
 	@GetMapping("/hello")
 	public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-		String data = "Hello " + name +" ,this is " + Year.now().getValue();
+		String data = "Hello " + name +" , this is " + Year.now().getValue();
 		return data;
 	}
 
